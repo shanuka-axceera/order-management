@@ -10,7 +10,7 @@ dotenv.config();
 app.use(cors());
 
 app.use(bodyParser.json());
-const PORT = process.env.PORT || 8070;
+const PORT = process.env.PORT || 5011;
 const URL = process.env.MONGODB_URL;
 
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
